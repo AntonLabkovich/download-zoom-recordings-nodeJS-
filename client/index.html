@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form"> 
+            <div class="input-field col s12 seclectAccount">
+                <select>
+                  <option value="marketing@itlandia.by">marketing@itlandia.by</option>
+                  <option value="itlandiaonl1@gmail.com">itlandiaonl1@gmail.com</option>
+                  <option value="itlandiaonl2@gmail.com">itlandiaonl2@gmail.com</option>
+                  <option value="itlandiaonl4@gmail.com">itlandiaonl4@gmail.com</option>
+                  <option value="itlandiaonl5@gmail.com">itlandiaonl5@gmail.com</option>
+                  <option value="itlandiaonl6@gmail.com">itlandiaonl6@gmail.com</option>
+                  <option value="itlandiaonl7@gmail.com">itlandiaonl7@gmail.com</option>
+                  <option value="minskitlandia@gmail.com">minskitlandia@gmail.com</option>
+                </select>
+                <label>Выбор аккаунта</label>
+            </div>
+            <div class="selectDate"> 
+                <p>Выберите дату от:</p>
+                <input type="text" class="datepicker firstDate" placeholder="выбор тут">
+
+                <p>Выберите дату до:</p>
+                <input type="text" class="datepicker secondDate" placeholder="выбор тут" disabled>
+            </div>
+        </div>
+        <div id="getData" class="enable">
+            получить данные
+        </div>
+        <div class="listMeetings">
+
+        </div>
+        <div class="pages">
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="recording.js"></script>
+</body>
+</html>
