@@ -9,7 +9,7 @@ const app = require('express')()
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 
-const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6ImllNTVxdjhqU0ktRjhYdkJDZklsVlEiLCJleHAiOjE1OTQ5ODAwNDcsImlhdCI6MTU5NDM3NTI0N30.eMfjoiiqv31jwlPcEz6xXnSGxfPPeqcaNurs-oRzULs'
+const token = ''
 
 let GlobalData = {}
 
